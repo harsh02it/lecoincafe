@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <title>Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="../img/favi.png" />
+
+  </head>
+  <body>
+    <header class="white_bg">
+      <div class="logo_cls">
+        <a href="../index.html">
+          <img src="../img/logo_black.svg" alt="Le Coin Café Cafe with Mug"
+        />
+        <sup>TM</sup></a>
+      </div>
+      <nav class="desk_tab_menu_cls">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="blogs.html">Blogs</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="franchise.html">Franchise</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+      </nav>
+      <nav class="mobile_nav_cls">
+        <ul class="navbar" id="navbar">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="blogs.html">Blogs</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="franchise.html">Franchise</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+          <a class="close" href="#">
+            <img
+              src="https://ljc-dev.github.io/testing0/ham-close.svg"
+              alt="close"
+            />
+          </a>
+        </ul>
+        <a class="hamburger" href="#navbar">
+          <img src="../img/menu_bk.png" alt="menu" />
+        </a>
+      </nav>
+    </header>
+    <main>
+      <!-- page title -->
+      <section class="title_section">
+        <div class="title_content_cls">
+          <h1>Contact us</h1>
+        </div>
+        <img
+          src="../img/abstract_top.webp"
+          alt="white shape"
+          class="abstract_shape_cls"
+        />
+      </section>
+      <!-- Contact us with icons -->
+      <section class="contact_us_section">
+        <div class="parent_contact_us">
+          <div class="child_contact_us">
+            <div class="ic_img_cls">
+              <img class="icon_c_cls" src="../img/call.png" />
+            </div>
+            <h3>Phone</h3>
+            <p><a href="tel:+1 437 566 0610">+1 437 566 0610</a></p>
+          </div>
+          <div class="child_contact_us">
+            <div class="ic_img_cls">
+              <img class="icon_c_cls" src="../img/email_ic.png" />
+            </div>
+            <h3>Email us</h3>
+            <p><a href="mailto:info@lecoincafe.ca">info@lecoincafe.ca</a></p>
+          </div>
+          <div class="child_contact_us">
+            <div class="ic_img_cls">
+              <img class="icon_c_cls" src="../img/pin.png" />
+            </div>
+            <h3>Address</h3>
+            <p>
+              <a href="https://maps.app.goo.gl/8Ma6A7CkYCjSz7iS9"
+                >265 Yorkland Blvd #400, North York, ON M2J 1S5</a
+              >
+              <p>Mon - Sun : 8:00AM to 11:00PM
+              </p>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Contact us with icons Ends-->
+
+      <!-- Contact form Starts-->
+      <section class="contact_form_cls">
+        <div class="overlay_cls">
+          <div class="inner_contact_form_cls">
+            <h3>Please fill all the information!</h3>
+            <div class="seperator_cls"></div>
+            <div class="form_cls">
+              <form action="thank-you.html" method="post">
+                <input
+                  type="text"
+                  class="text_input_cls"
+                  placeholder="Name"
+                  required
+                />
+                <div class="inner_form_cls">
+                  <input
+                    type="email"
+                    class="text_input_cls width_half_cls"
+                    placeholder="Email address"
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                    required
+                  />
+                  <input
+                    type="number"
+                    class="text_input_cls width_half_cls"
+                    placeholder="Contact"
+                    required
+                  />
+                </div>
+                <select>
+                  <option value="I Would Like to">I Would Like to</option>
+                  <option value="Book a Table">Book a Table</option>
+                  <option value="Make order for Catering">
+                    Make order for Catering
+                  </option>
+                  <option value="Other">Other</option>
+                </select>
+                <textarea cols="3" placeholder="Message" required></textarea>
+                <div class="concent_block_cls">
+                  <input type="checkbox" id="privacy" class="check_box_cls" />
+                  <label for="privacy"
+                    >I consent to my personal information being processed in
+                    accordance with Lecoin Cafe Privacy Policy.</label
+                  >
+                </div>
+                <input type="submit" value="Send Now" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Map Section Start -->
+      <section class="map_cls">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11523.924681330716!2d-79.3361142!3d43.7732497!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d3bca1a3f78f%3A0x815365ed6c3b957e!2sLambton%20College%20In%20Toronto!5e0!3m2!1sen!2sca!4v1700856472246!5m2!1sen!2sca"
+          width="100%"
+          height="650"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+      <!-- Map Section Ends -->
+      <!-- Contact form ends -->
+    </main>
+    <footer>
+      <section class="newsletter_cls postion_100">
+        <div class="inner_blocks">
+          <h3>Subscribe <br /><span>Daily Newsletters</span></h3>
+        </div>
+        <div class="inner_blocks">
+          <input
+            type="text"
+            class="email_text_cls"
+            placeholder="Enter your email here"
+          />
+          <button href="#">Subscribe</button>
+        </div>
+      </section>
+      <section class="footer_cls postion_100">
+        <div class="footer_part_cls">
+          <img src="../img/logo.svg" alt="Site Logo" />
+          <p class="footer_ab_cls">
+            Pellentesque congue non augue vitae pellentesque. Morbi sollicitudin
+            eleifend rhoncus. Mauris vel nisl a massa viverra sollicitudin
+            semper a diam.
+          </p>
+        </div>
+        <div class="footer_part_cls">
+          <h2>Contact us</h2>
+          <ul>
+            <li>
+              <a href="contact.html">
+                <span class="fa fa-map"></span> 265 Yorkland Blvd #400, North
+                York, ON M2J 1S5</a>
+            </li>
+            <li>
+              <a href="tel:+14164852098"><span class="fa fa-phone"></span> (416) 485-2098</a>
+            </li>
+            <li>
+              <a href="mailto:info@lecoincafe.ca">
+                <span class="fa fa-envelope"></span> info@lecoincafe.ca</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer_part_cls">
+          <h2>Explore</h2>
+          <ul>
+            <li>
+              <a href="../index.html"><span class="fa fa-chevron-right"></span> Home</a>
+            </li>
+            <li>
+              <a href="../html/about.html"><span class="fa fa-chevron-right"></span> About</a>
+            </li>
+            <li>
+              <a href="../html/menu.html"><span class="fa fa-chevron-right"></span> Menu</a>
+            </li>
+            <li>
+              <a href="../html/franchise.html"><span class="fa fa-chevron-right"></span> Franchise</a>
+            </li>
+            <li>
+              <a href="../html/contact.html"><span class="fa fa-chevron-right"></span> Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="copyright_section">
+        <p>© 2023 Le Coin Café. All rights reserved.</p>
+      </section>
+    </footer>
+  </body>
+</html>
